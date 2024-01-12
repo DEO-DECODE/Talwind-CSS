@@ -7,6 +7,18 @@
     <script>
       tailwind.config = {
         theme: {
+          colors: {
+            transparent: "transparent",
+            current: "currentColor",
+            white: "#ffffff",
+            purple: "#3f3cbb",
+            midnight: "#121063",
+            metal: "#565584",
+            tahiti: "#3ab7bf",
+            silver: "#ecebff",
+            "bubble-gum": "#ff77e9",
+            bermuda: "#78dcca",
+          },
           screens: {
             sm: "640px",
             // => @media (min-width: 640px) { ... }
@@ -36,9 +48,9 @@
     </script>
   </head>
   <body>
-    <div class="container mx-auto bg-red-900">
+    <div class="container mx-auto">
       <h1
-        class="text-3xl xs:text-left sm:text-center text-devCol font-bold underline"
+        class="text-3xl xs:text-left sm:text-center text-metal font-bold underline"
       >
         Hello world!
       </h1>
